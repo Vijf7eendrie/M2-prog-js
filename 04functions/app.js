@@ -24,12 +24,31 @@ argumentsAreHandy1("gekke shoutout");
 
 
 
-
-
-
-
-
 superMooieGlobalFunction();
+
+
+
+function hahaFunc() {
+   return"BWAHAHA!!!";
+    return true;
+   }
+   
+   
+   let result = hahaFunc();
+   console.log(result);
+
+
+   function optelling(num1, num2) {
+    return num1 + num2;
+   }
+   
+ 
+   let sum = optelling(3, 4);
+   console.log(sum);    
+
+
+
+
 
 
    function superMooieGlobalFunction()    
@@ -41,6 +60,15 @@ superMooieGlobalFunction();
         superMooieGlobalFunction();
         superMooieGlobalFunction();
         superMooieGlobalFunction();
+
+
+
+        function Mariofunction()    
+        {
+            console.log("MARIO!!");
+        }
+
+        Mariofunction();
 
 
 
@@ -60,5 +88,11 @@ function aanroepVoorbeeld()
 
 let app = new App();
 app.runApplication();
+
+let a1 = hahaFunc();
+console.log(a1);
+let a2 = optelling(5,8);
+console.log(a2);
+
 
     
